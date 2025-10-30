@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shrirang Kulkarni — Portfolio</title>
+  <meta name="description" content="Portfolio of Shrirang Kulkarni — Business Analyst / Data enthusiast. Projects, resume, contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Shrirang Kulkarni</h1>
+        <p class="muted">Business Analyst • Data Enthusiast • Problem Solver</p>
+      </div>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <h2>Hello — I build data-informed solutions and turn messy requirements into clear user stories.</h2>
+        <p class="lead">M.S. in Information Technology • Interested in Business Analysis, Data Analytics & APIs</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">See projects</a>
+          <a href="#resume" class="btn-link">Download resume</a>
+        </div>
+      </div>
+      <div class="hero-image" aria-hidden="true">
+        <!-- optional: replace with image -->
+        <div class="avatar">SK</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h3>Selected projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>API Project — Job Search Automator</h4>
+          <p>Automates job searches, aggregates listings, sends daily summary. Python, FastAPI, PostgreSQL.</p>
+          <p class="meta">Tech: Python · FastAPI · SQL · GitHub Actions</p>
+          <a class="card-link" href="#">View repository</a>
+        </article>
+
+        <article class="card">
+          <h4>Data Dashboard — Campaign Analytics</h4>
+          <p>Dashboard to compare programmatic, search, and social campaigns against benchmarks.</p>
+          <p class="meta">Tech: React · Recharts · SQL</p>
+          <a class="card-link" href="#">View repository</a>
+        </article>
+
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h3>About</h3>
+      <p>I’m a Master’s graduate in Information Technology, passionate about turning data into decisions and documenting processes so teams can move faster. I enjoy clean architecture, reproducible analysis, and a good tiramisu.</p>
+      <ul class="skills">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>ArcGIS</li>
+        <li>Business Analysis</li>
+        <li>API design</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="section">
+      <h3>Resume</h3>
+      <p>Download my resume (PDF) — <a href="resume.pdf" download>Download</a>.</p>
+      <details>
+        <summary>Quick highlights</summary>
+        <ul>
+          <li>Business Process Analyst — TCS (Apr 2021–Jul 2023)</li>
+          <li>Customer Service — Amazon</li>
+          <li>Graduated: M.S. in Information Technology</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h3>Contact</h3>
+      <p>Want to collaborate? Email me at <a href="mailto:kulkarnishrirang24@gmail.com">kulkarnishrirang24@gmail.com</a> or use the form below.</p>
+
+      <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="_replyto" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Shrirang Kulkarni · Built with ☕ and a keyboard</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
